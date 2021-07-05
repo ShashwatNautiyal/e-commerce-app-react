@@ -1,0 +1,21 @@
+.orderProduct {
+	display: flex;
+	padding: 1rem;
+	margin-bottom: 0;
+	border: 1px solid #e7e7e7;
+	height: 150px;
+}
+
+.orderProduct > img {
+	width: 100%;
+	width: 150px;
+	height: 120px;
+	object-fit: contain;
+	margin-right: 10px;
+}
+
+.orderProduct > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
